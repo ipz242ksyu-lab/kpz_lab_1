@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u0438 \u0442\u0430 \u0441\u0442\u0440\u0443\u043A\u0442\u0443\u0440\u0438 \u0434\u0430\u043D\u043D\u0438\u0445\\oop-lab13\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{463877CE-28DA-4625-9540-25C46AE038AC}|WindowsForms\\WindowsForms.csproj|D:\\\u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u0438 \u0442\u0430 \u0441\u0442\u0440\u0443\u043A\u0442\u0443\u0440\u0438 \u0434\u0430\u043D\u043D\u0438\u0445\\oop-lab13\\windowsforms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{463877CE-28DA-4625-9540-25C46AE038AC}|WindowsForms\\WindowsForms.csproj|solutionrelative:windowsforms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{463877CE-28DA-4625-9540-25C46AE038AC}|WindowsForms\\WindowsForms.csproj|D:\\\u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u0438 \u0442\u0430 \u0441\u0442\u0440\u0443\u043A\u0442\u0443\u0440\u0438 \u0434\u0430\u043D\u043D\u0438\u0445\\oop-lab13\\windowsforms\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{463877CE-28DA-4625-9540-25C46AE038AC}|WindowsForms\\WindowsForms.csproj|solutionrelative:windowsforms\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{463877CE-28DA-4625-9540-25C46AE038AC}|WindowsForms\\WindowsForms.csproj|d:\\\u0430\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u0438 \u0442\u0430 \u0441\u0442\u0440\u0443\u043A\u0442\u0443\u0440\u0438 \u0434\u0430\u043D\u043D\u0438\u0445\\oop-lab13\\windowsforms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{463877CE-28DA-4625-9540-25C46AE038AC}|WindowsForms\\WindowsForms.csproj|solutionrelative:windowsforms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{872FC999-3D5B-4C1F-A888-7E52426F9CF3}|ClassLibrary1\\ClassLibrary1.csproj|D:\\\u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u0438 \u0442\u0430 \u0441\u0442\u0440\u0443\u043A\u0442\u0443\u0440\u0438 \u0434\u0430\u043D\u043D\u0438\u0445\\oop-lab13\\classlibrary1\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{872FC999-3D5B-4C1F-A888-7E52426F9CF3}|ClassLibrary1\\ClassLibrary1.csproj|solutionrelative:classlibrary1\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{059F8BF0-FD24-4FF8-967C-D2CD84588D34}|MyFile\\ClassLibrary.csproj|d:\\\u0430\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u0438 \u0442\u0430 \u0441\u0442\u0440\u0443\u043A\u0442\u0443\u0440\u0438 \u0434\u0430\u043D\u043D\u0438\u0445\\oop-lab13\\myfile\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{059F8BF0-FD24-4FF8-967C-D2CD84588D34}|MyFile\\ClassLibrary.csproj|solutionrelative:myfile\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96A0F597-4D35-48A5-89AA-D9A49088AFC6}|ClassLibrary2\\ClassLibrary2.csproj|D:\\\u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u0438 \u0442\u0430 \u0441\u0442\u0440\u0443\u043A\u0442\u0443\u0440\u0438 \u0434\u0430\u043D\u043D\u0438\u0445\\oop-lab13\\classlibrary2\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96A0F597-4D35-48A5-89AA-D9A49088AFC6}|ClassLibrary2\\ClassLibrary2.csproj|solutionrelative:classlibrary2\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{059F8BF0-FD24-4FF8-967C-D2CD84588D34}|MyFile\\MyFile.csproj|D:\\\u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u0438 \u0442\u0430 \u0441\u0442\u0440\u0443\u043A\u0442\u0443\u0440\u0438 \u0434\u0430\u043D\u043D\u0438\u0445\\oop-lab13\\myfile\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{059F8BF0-FD24-4FF8-967C-D2CD84588D34}|MyFile\\MyFile.csproj|solutionrelative:myfile\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\\u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u0438 \u0442\u0430 \u0441\u0442\u0440\u0443\u043A\u0442\u0443\u0440\u0438 \u0434\u0430\u043D\u043D\u0438\u0445\\oop-lab13\\MyFile\\Class1.cs",
+              "RelativeDocumentMoniker": "MyFile\\Class1.cs",
+              "ToolTip": "D:\\\u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u0438 \u0442\u0430 \u0441\u0442\u0440\u0443\u043A\u0442\u0443\u0440\u0438 \u0434\u0430\u043D\u043D\u0438\u0445\\oop-lab13\\MyFile\\Class1.cs",
+              "RelativeToolTip": "MyFile\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T11:58:47.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "D:\\\u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u0438 \u0442\u0430 \u0441\u0442\u0440\u0443\u043A\u0442\u0443\u0440\u0438 \u0434\u0430\u043D\u043D\u0438\u0445\\oop-lab13\\WindowsForms\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "WindowsForms\\Form1.Designer.cs",
+              "ToolTip": "D:\\\u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u0438 \u0442\u0430 \u0441\u0442\u0440\u0443\u043A\u0442\u0443\u0440\u0438 \u0434\u0430\u043D\u043D\u0438\u0445\\oop-lab13\\WindowsForms\\Form1.Designer.cs*",
+              "RelativeToolTip": "WindowsForms\\Form1.Designer.cs*",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwKkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T07:37:57.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\\u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u0438 \u0442\u0430 \u0441\u0442\u0440\u0443\u043A\u0442\u0443\u0440\u0438 \u0434\u0430\u043D\u043D\u0438\u0445\\oop-lab13\\WindowsForms\\Form1.cs",
+              "RelativeDocumentMoniker": "WindowsForms\\Form1.cs",
+              "ToolTip": "D:\\\u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u0438 \u0442\u0430 \u0441\u0442\u0440\u0443\u043A\u0442\u0443\u0440\u0438 \u0434\u0430\u043D\u043D\u0438\u0445\\oop-lab13\\WindowsForms\\Form1.cs*",
+              "RelativeToolTip": "WindowsForms\\Form1.cs*",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAswA4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T07:36:15.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\\u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u0438 \u0442\u0430 \u0441\u0442\u0440\u0443\u043A\u0442\u0443\u0440\u0438 \u0434\u0430\u043D\u043D\u0438\u0445\\oop-lab13\\WindowsForms\\Form1.cs",
+              "RelativeDocumentMoniker": "WindowsForms\\Form1.cs",
+              "ToolTip": "D:\\\u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u0438 \u0442\u0430 \u0441\u0442\u0440\u0443\u043A\u0442\u0443\u0440\u0438 \u0434\u0430\u043D\u043D\u0438\u0445\\oop-lab13\\WindowsForms\\Form1.cs [Design]*",
+              "RelativeToolTip": "WindowsForms\\Form1.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T07:35:38.591Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\\u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u0438 \u0442\u0430 \u0441\u0442\u0440\u0443\u043A\u0442\u0443\u0440\u0438 \u0434\u0430\u043D\u043D\u0438\u0445\\oop-lab13\\ClassLibrary2\\Class1.cs",
+              "RelativeDocumentMoniker": "ClassLibrary2\\Class1.cs",
+              "ToolTip": "D:\\\u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u0438 \u0442\u0430 \u0441\u0442\u0440\u0443\u043A\u0442\u0443\u0440\u0438 \u0434\u0430\u043D\u043D\u0438\u0445\\oop-lab13\\ClassLibrary2\\Class1.cs",
+              "RelativeToolTip": "ClassLibrary2\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T07:25:58.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\\u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u0438 \u0442\u0430 \u0441\u0442\u0440\u0443\u043A\u0442\u0443\u0440\u0438 \u0434\u0430\u043D\u043D\u0438\u0445\\oop-lab13\\ClassLibrary1\\Class1.cs",
+              "RelativeDocumentMoniker": "ClassLibrary1\\Class1.cs",
+              "ToolTip": "D:\\\u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u0438 \u0442\u0430 \u0441\u0442\u0440\u0443\u043A\u0442\u0443\u0440\u0438 \u0434\u0430\u043D\u043D\u0438\u0445\\oop-lab13\\ClassLibrary1\\Class1.cs",
+              "RelativeToolTip": "ClassLibrary1\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T07:22:21.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\\u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u0438 \u0442\u0430 \u0441\u0442\u0440\u0443\u043A\u0442\u0443\u0440\u0438 \u0434\u0430\u043D\u043D\u0438\u0445\\oop-lab13\\MyFile\\Class1.cs",
+              "RelativeDocumentMoniker": "MyFile\\Class1.cs",
+              "ToolTip": "D:\\\u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u0438 \u0442\u0430 \u0441\u0442\u0440\u0443\u043A\u0442\u0443\u0440\u0438 \u0434\u0430\u043D\u043D\u0438\u0445\\oop-lab13\\MyFile\\Class1.cs",
+              "RelativeToolTip": "MyFile\\Class1.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBMAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T07:19:38.888Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

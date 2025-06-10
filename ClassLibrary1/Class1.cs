@@ -1,0 +1,40 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using ClassLibrary;
+
+namespace ClassLibrary1
+{
+    public class EncodingDecoding
+    {
+        public static MyFile Encoding(MyFile f)
+        {
+            var file = new MyFile(f)
+            {
+                Name = f.Name + ".crypt",
+                Path = f.Path + ".crypt"
+            };
+            for (int i = 0; i < f.Bytes.Length; i++)
+            {
+                file.Bytes[i] = (byte)(f.Bytes[i] ^ 5);
+            }
+            return file;
+        }
+
+        public static MyFile Decoding(MyFile f)
+        {
+            var file = new MyFile(f)
+            {
+                Name = f.Name.Substring(0, f.Name.Length - 6),
+                Path = f.Path.Substring(0, f.Path.Length - 6)
+            };
+            for (int i = 0; i < f.Bytes.Length; i++)
+            {
+                file.Bytes[i] = (byte)(f.Bytes[i] ^ 5);
+            }
+            return file;
+        }
+    }
+}
