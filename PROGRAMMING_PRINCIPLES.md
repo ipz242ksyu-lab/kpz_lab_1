@@ -5,7 +5,19 @@
 У проєкті використовується повторне використання методів замість дублювання коду. Наприклад, метод `Add File()` використовується для додавання файлів у різних місцях програми.
 
 Приклад:
-- WindowsForms/Form1.cs
+
+        private void AddFile(string path)
+        {
+            var file = new MyFile(path);
+            FileList.Add(file);
+            listView.Items.Add(new ListViewItem(new string[] { (listView.Items.Count + 1).ToString(), file.Name }));
+        }
+
+        private void AddFile(MyFile file)
+        {
+            FileList.Add(file);
+            listView.Items.Add(new ListViewItem(new string[] { (listView.Items.Count + 1).ToString(), file.Name }));
+        }
 
 ## Single Responsibility Principle
 
