@@ -5,7 +5,7 @@
 У проєкті реалізовано поділ на окремі модулі.  
 Бібліотеки класів містять логіку роботи з файлами, архівацією та кодуванням, а Windows Forms застосунок відповідає за взаємодію з користувачем.
 
-Клас [MyFile](https://github.com/ipz242ksyu-lab/kpz_lab_1/blob/master/MyFile/Class1.cs)  містить метод [Save()](https://github.com/ipz242ksyu-lab/kpz_lab_1/blob/master/MyFile/Class1.cs) для збереження файлів 
+Клас [MyFile](https://github.com/ipz242ksyu-lab/kpz_lab_1/blob/master/MyFile/Class1.cs)  містить метод [Save()](https://github.com/ipz242ksyu-lab/kpz_lab_1/blob/master/MyFile/Class1.cs#L30-L36) для збереження файлів 
 Клас [ZippingUnzipping](https://github.com/ipz242ksyu-lab/kpz_lab_1/blob/master/ClassLibrary2/Class1.cs) містить методи [Zipping()](https://github.com/ipz242ksyu-lab/kpz_lab_1/blob/master/ClassLibrary2/Class1.cs
 ), [Unzipping()](https://github.com/ipz242ksyu-lab/kpz_lab_1/blob/master/ClassLibrary2/Class1.cs
 ) та [RemoveDirectory()(](https://github.com/ipz242ksyu-lab/kpz_lab_1/blob/master/ClassLibrary2/Class1.cs
