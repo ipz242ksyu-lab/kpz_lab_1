@@ -1,59 +1,46 @@
-# Принципи програмування. Запахи коду.
+# Принципи програмування
 
-## Криворука Софія ІПЗ-24-2
-
-У проєкті використовується повторне використання методів замість дублювання коду. Наприклад, метод `Add File()` використовується для додавання файлів у різних місцях програми.
-
-Приклад:
-
-        private void AddFile(string path)
-        {
-            var file = new MyFile(path);
-            FileList.Add(file);
-            listView.Items.Add(new ListViewItem(new string[] { (listView.Items.Count + 1).ToString(), file.Name }));
-        }
-
-        private void AddFile(MyFile file)
-        {
-            FileList.Add(file);
-            listView.Items.Add(new ListViewItem(new string[] { (listView.Items.Count + 1).ToString(), file.Name }));
-        }
-
-## Single Responsibility Principle
-
-Кожен клас виконує окрему задачу:
-- `EncodingDecoding` відповідає за кодування та декодування файлів.
-- `MyFile` відповідає за роботу з файлами.
-- `Form1` відповідає за графічний інтерфейс.
+У проєкті використовуються прості та зрозумілі класи без надмірного ускладнення логіки.  
+Клас `Class1` має базову структуру та не містить зайвих залежностей чи складних конструкцій.
 
 Приклад:
-- ClassLibrary1/Class1.cs
-- MyFile/Class1.cs
-- WindowsForms/Form1.cs
+https://github.com/ipz242ksyu-lab/kpz_lab_1/blob/master/ClassLibrary1/Class1.cs
+
+---
+
+## SRP (Single Responsibility Principle)
+
+Клас виконує одну відповідальність та ізольований від іншої логіки програми.  
+Це спрощує підтримку та подальше розширення проєкту.
+
+Приклад:
+https://github.com/ipz242ksyu-lab/kpz_lab_1/blob/master/ClassLibrary1/Class1.cs
+
+---
 
 ## Encapsulation
 
-Дані файлів інкапсульовані у класі `MyFile`. Робота з даними відбувається через методи класу, а не напряму.
+Логіка програми інкапсульована всередині окремого класу бібліотеки класів.  
+Це дозволяє приховати реалізацію та працювати лише через публічний інтерфейс класу.
 
 Приклад:
-- MyFile/Class1.cs
+https://github.com/ipz242ksyu-lab/kpz_lab_1/blob/master/ClassLibrary1/Class1.cs
+
+---
 
 ## Modularity
 
-Проєкт поділений на декілька бібліотек класів:
-- `ClassLibrary1`
-- `ClassLibrary2`
-- `MyFile`
-- `WindowsForms`
+Проєкт поділений на окремі модулі та бібліотеки, що відповідає принципу модульності.  
+Використання окремої `ClassLibrary` дозволяє повторно використовувати код у різних частинах програми.
 
-Це дозволяє розділити логіку програми на незалежні модулі.
+Приклад:
+https://github.com/ipz242ksyu-lab/kpz_lab_1/tree/master/ClassLibrary1
+
+---
 
 ## Readability
 
-У коді використовуються зрозумілі назви класів і методів:
-- `Encoding`
-- `Decoding`
-- `AddFile`
-- `Save`
+Код має зрозумілу структуру та стандартне оформлення C#-проєкту, що покращує читабельність і підтримку.
 
-Це покращує читабельність та підтримку коду.
+Приклад:
+https://github.com/ipz242ksyu-lab/kpz_lab_1/blob/master/ClassLibrary1/Class1.cs
