@@ -1,0 +1,104 @@
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.IO.Compression;
+using ClassLibrary;
+
+namespace ClassLibrary2
+{
+    public class ZippingUnzipping
+    {
+        private static readonly string TempPath =
+            Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "Dearchiver");
+
+        private static readonly string ArchivePath =
+            Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "Archiver");
+
+        private static void CreateDirectories()
+        {
+            Directory.CreateDirectory(TempPath);
+            Directory.CreateDirectory(ArchivePath);
+        }
+
+        private static void CopyArchive(string zipPath)
+        {
+            File.Copy(zipPath,
+                Path.Combine(ArchivePath, Path.GetFileName(zipPath)),
+                true);
+        }
+
+        private static string[] ReadSortFile()
+        {
+            using StreamReader reader =
+                new StreamReader(Path.Combine(TempPath, "00sort.sort"));
+
+            return reader.ReadToEnd()
+                .Split(new[] { '\n', '\r' }, StringSplitOptions.RemoveEmptyEntries);
+        }
+
+        private static List<string> FilterFiles(string[] nameArr)
+        {
+            List<string> result = new();
+
+            foreach (string file in Directory.GetFiles(TempPath))
+            {
+                string fileName = Path.GetFileName(file);
+
+                if (Array.Exists(nameArr, n => n.Trim() == fileName.Trim()))
+                {
+                    result.Add(file);
+                }
+            }
+
+            return result;
+        }
+
+        private static void RemoveDirs()
+        {
+            Directory.Delete(TempPath, true);
+            Directory.Delete(ArchivePath, true);
+        
+
+        public static List<string> Unzipping(string zipPath)
+        {
+            CreateDirectories();
+            CopyArchive(zipPath);
+
+            ZipFile.ExtractToDirectory(zipPath, TempPath);
+
+            var nameArr = ReadSortFile();
+            var result = FilterFiles(nameArr);
+
+            RemoveDirs();
+
+            return result;
+        }
+
+        public static string Zipping(List<string> files, string zipPath)
+        {
+            CreateDirectories();
+
+            using (StreamWriter sw =
+                new StreamWriter(Path.Combine(TempPath, "00sort.sort")))
+            {
+                foreach (string file in files)
+                {
+                    string destFile = Path.Combine(TempPath, Path.GetFileName(file));
+                    File.Copy(file, destFile, true);
+                    sw.WriteLine(Path.GetFileName(file));
+                }
+            }
+
+            ZipFile.CreateFromDirectory(TempPath, zipPath);
+
+            RemoveDirs();
+
+            return zipPath;
+        }
+
+        public static string Zipping(List<MyFile> filesToZip, string fileName)
+        {
+            throw new NotImplementedException();
+        }
+    }
+}
