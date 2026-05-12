@@ -6,13 +6,13 @@
 Бібліотеки класів містять логіку роботи з файлами, архівацією та кодуванням, а Windows Forms застосунок відповідає за взаємодію з користувачем.
 
 Клас [MyFile](https://github.com/ipz242ksyu-lab/kpz_lab_1/blob/master/MyFile/Class1.cs) містить метод [Save()](https://github.com/ipz242ksyu-lab/kpz_lab_1/blob/master/MyFile/Class1.cs#L25-L31) для збереження файлів
-Клас [ZippingUnzipping](https://github.com/ipz242ksyu-lab/kpz_lab_1/blob/master/ClassLibrary2/Class1) містить методи [Zipping(), Unzipping() та RemoveDirectory()](
+Клас [ZippingUnzipping](https://github.com/ipz242ksyu-lab/kpz_lab_1/blob/master/ClassLibrary2/Class1.cs) містить методи [Zipping(), Unzipping() та RemoveDirectory()](
 https://github.com/ipz242ksyu-lab/kpz_lab_1/blob/master/ClassLibrary2/Class1.cs#L10-L67)
 
-Клас [EncodingDecoding](https://github.com/ipz242ksyu-lab/kpz_lab_1/blob/master/ClassLibrary1/Class1) містить методи [Encoding() та Decoding()](
+Клас [EncodingDecoding](https://github.com/ipz242ksyu-lab/kpz_lab_1/blob/master/ClassLibrary1/Class1.cs) містить методи [Encoding() та Decoding()](
 https://github.com/ipz242ksyu-lab/kpz_lab_1/blob/master/ClassLibrary1/Class1.cs#L9-L31)
 
-Форма [Form1](https://github.com/ipz242ksyu-lab/kpz_lab_1/blob/master/WindowsForms/Form1)містить методи роботи з інтерфейсом користувача:
+Форма [Form1](https://github.com/ipz242ksyu-lab/kpz_lab_1/blob/master/WindowsForms/Form1.cs)містить методи роботи з інтерфейсом користувача:
 [OpenFileToolStripMenuItem_Click(),
 SaveAsToolStripMenuItem_Click(),
 EncodingToolStripMenuItem_Click(),
@@ -40,7 +40,7 @@ DecodingToolStripMenuItem_Click()](https://github.com/ipz242ksyu-lab/kpz_lab_1/b
 
 У проєкті використовується інкапсуляція даних шляхом об’єднання полів та методів у межах окремих класів.
 
-Клас [MyFile](https://github.com/ipz242ksyu-lab/kpz_lab_1/blob/master/MyFile/Class1) об’єднує поля:
+Клас [MyFile](https://github.com/ipz242ksyu-lab/kpz_lab_1/blob/master/MyFile/Class1.cs) об’єднує поля:
 [Name,
 Bytes,
 Path](https://github.com/ipz242ksyu-lab/kpz_lab_1/blob/master/MyFile/Class1.cs#L4-L31)
