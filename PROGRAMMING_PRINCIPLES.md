@@ -14,8 +14,8 @@ https://github.com/ipz242ksyu-lab/kpz_lab_1/blob/master/ClassLibrary1/Class1.cs
 Це спрощує підтримку та подальше розширення проєкту.
 
 Приклад:
-https://github.com/ipz242ksyu-lab/kpz_lab_1/blob/master/ClassLibrary1/Class1.cs
-
+[https://github.com/ipz242ksyu-lab/kpz_lab_1/blob/master/ClassLibrary1/Class1.cs
+](https://github.com/ipz242ksyu-lab/kpz_lab_1/blob/84feb33fce3757fe08f42497f61c390c404cda18/ClassLibrary1/Class1.cs)
 ---
 
 ## Encapsulation
